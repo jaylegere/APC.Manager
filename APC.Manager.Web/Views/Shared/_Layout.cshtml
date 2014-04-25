@@ -260,41 +260,41 @@
 
 						<ul class="sub-nav">
 							<li>
-								<a href="~/Theme/ui-buttons.cshtml">
+								<a href="@Url.Action("UIButtons", "Theme")">
 									<i class="fa fa-hand-o-up"></i>
 									Buttons
 								</a>
 							</li>
 							<li>
-								<a href="~/Theme/ui-tabs.cshtml">
+								<a href="@Url.Action("UITabs", "Theme")">
 									<i class="fa fa-reorder"></i>
 									Tabs & Accordions
 								</a>
 							</li>
 
 							<li>
-								<a href="~/Theme/ui-popups.cshtml">
+								<a href="@Url.Action("UIPopups", "Theme")">
 									<i class="fa fa-asterisk"></i>
 									Popups / Notifications
 								</a>
 							</li>
 
 							<li>
-								<a href="~/Theme/ui-sliders.cshtml">
+								<a href="@Url.Action("UISliders", "Theme")">
 									<i class="fa fa-tasks"></i>
 									Sliders
 								</a>
 							</li>
 
 							<li class="">
-								<a href="~/Theme/ui-typography.cshtml">
+								<a href="@Url.Action("UITypography", "Theme")">
 									<i class="fa fa-font"></i>
 									Typography
 								</a>
 							</li>
 
 							<li class="">
-								<a href="~/Theme/ui-icons.cshtml">
+								<a href="@Url.Action("UIIcons", "Theme")">
 									<i class="fa fa-star-o"></i>
 									Icons
 								</a>
@@ -320,19 +320,19 @@
 
 						<ul class="sub-nav">
 							<li>
-								<a href="~/Theme/table-basic.cshtml">
+								<a href="@Url.Action("TableBasic", "Theme")">
 									<i class="fa fa-table"></i>
 									Basic Tables
 								</a>
 							</li>
 							<li>
-								<a href="~/Theme/table-advanced.cshtml">
+								<a href="@Url.Action("TableAdvanced", "Theme")">
 									<i class="fa fa-table"></i>
 									Advanced Tables
 								</a>
 							</li>
 							<li>
-								<a href="~/Theme/table-responsive.cshtml">
+								<a href="@Url.Action("TableResponsive", "Theme")">
 									<i class="fa fa-table"></i>
 									Responsive Tables
 								</a>
@@ -375,13 +375,13 @@
 
 						<ul class="sub-nav">
 							<li>
-								<a href="~/Theme/chart-flot.cshtml">
+								<a href="@Url.Action("ChartFlot", "Theme")">
 									<i class="fa fa-bar-chart-o"></i>
 									jQuery Flot
 								</a>
 							</li>
 							<li>
-								<a href="~/Theme/chart-morris.cshtml">
+								<a href="@Url.Action("ChartMorris", "Theme")">
 									<i class="fa fa-bar-chart-o"></i>
 									Morris.js
 								</a>
@@ -466,6 +466,8 @@
 			</li>
 		</ul>
 	</footer>
+
+	@RenderSection("ModalPopups", false)
 
 	<script src="~/Theme/js/libs/jquery-1.9.1.min.js"></script>
 	<script src="~/Theme/js/libs/jquery-ui-1.9.2.custom.min.js"></script>
