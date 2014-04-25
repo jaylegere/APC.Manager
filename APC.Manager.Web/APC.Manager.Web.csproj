@@ -141,9 +141,6 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Theme\chart-flot.html" />
-    <Content Include="Theme\chart-morris.html" />
-    <Content Include="Theme\chart-sparkline.html" />
     <Content Include="Theme\css\App.css" />
     <Content Include="Theme\css\bootstrap.min.css" />
     <Content Include="Theme\css\custom.css" />
@@ -151,9 +148,6 @@
     <Content Include="Theme\css\Login.css" />
     <Content Include="Theme\fonts\fontawesome-webfont.svg" />
     <Content Include="Theme\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Theme\form-extended.html" />
-    <Content Include="Theme\form-regular.html" />
-    <Content Include="Theme\form-validation.html" />
     <Content Include="Theme\img\avatars\avatar-1.jpg" />
     <Content Include="Theme\img\avatars\avatar-2.jpg" />
     <Content Include="Theme\img\avatars\avatar-large-1.jpg" />
@@ -177,7 +171,6 @@
     <Content Include="Theme\img\pricing\label-editable.png" />
     <Content Include="Theme\img\pricing\label-red.png" />
     <Content Include="Theme\img\pricing\label-yellow.png" />
-    <Content Include="Theme\index.html" />
     <Content Include="Theme\js\App.js" />
     <Content Include="Theme\js\demos\buttons.js" />
     <Content Include="Theme\js\demos\calendar.js" />
@@ -395,28 +388,6 @@
     <Content Include="Theme\js\plugins\textarea-counter\jquery.textarea-counter.js" />
     <Content Include="Theme\js\plugins\timepicker\bootstrap-timepicker.css" />
     <Content Include="Theme\js\plugins\timepicker\bootstrap-timepicker.js" />
-    <Content Include="Theme\page-404.html" />
-    <Content Include="Theme\page-500.html" />
-    <Content Include="Theme\page-blank.html" />
-    <Content Include="Theme\page-calendar.html" />
-    <Content Include="Theme\page-gallery.html" />
-    <Content Include="Theme\page-invoice.html" />
-    <Content Include="Theme\page-login-social.html" />
-    <Content Include="Theme\page-login.html" />
-    <Content Include="Theme\page-pricing.html" />
-    <Content Include="Theme\page-profile.html" />
-    <Content Include="Theme\page-settings.html" />
-    <Content Include="Theme\page-support.html" />
-    <Content Include="Theme\table-advanced.html" />
-    <Content Include="Theme\table-basic.html" />
-    <Content Include="Theme\table-responsive.html" />
-    <Content Include="Theme\ui-buttons.html" />
-    <Content Include="Theme\ui-icons.html" />
-    <Content Include="Theme\ui-popups.html" />
-    <Content Include="Theme\ui-portlets.html" />
-    <Content Include="Theme\ui-sliders.html" />
-    <Content Include="Theme\ui-tabs.html" />
-    <Content Include="Theme\ui-typography.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
